@@ -1,3 +1,9 @@
+import heroCafeArchitectureImg from '../assets/images/hero_cafe_architecture_1791180933092.jpg';
+import pourOverCarafeImg from '../assets/images/product_pour_over_carafe_1791180944960.jpg';
+import cardamomKouignImg from '../assets/images/product_cardamom_kouign_1791180956490.jpg';
+import matchaLatteImg from '../assets/images/product_matcha_latte_1791180966406.jpg';
+import ethiopiaBeansImg from '../assets/images/product_ethiopia_beans_1791180976390.jpg';
+
 export type MenuCategory = 'all' | 'coffee' | 'bakery' | 'beans';
 
 export interface CustomizationGroup {
@@ -50,7 +56,7 @@ export interface BrewMethodPreset {
   }[];
 }
 
-export const HERO_IMAGE = '/src/assets/images/hero_cafe_architecture_1791180933092.jpg';
+export const HERO_IMAGE = heroCafeArchitectureImg;
 
 export const CAFE_PRODUCTS: CafeProduct[] = [
   {
@@ -65,7 +71,7 @@ export const CAFE_PRODUCTS: CafeProduct[] = [
     unitLabel: '300ml Carafe',
     description:
       'Harvested by 340 smallholder farmers in Gedeb and fermented in sealed stainless tanks for 48 hours before mountain spring washing. Brewed to order at 1:16.5 using custom remineralized water (45 ppm GH / 20 ppm KH).',
-    image: '/src/assets/images/product_pour_over_carafe_1791180944960.jpg',
+    image: pourOverCarafeImg,
     dietaryTags: ['plant-based', 'gluten-free', 'organic'],
     availabilityNote: 'Harvest Lot 04 · In Stock',
     extractionSpec: {
@@ -106,7 +112,7 @@ export const CAFE_PRODUCTS: CafeProduct[] = [
     unitLabel: 'Single Pastry (115g)',
     description:
       'Naturally leavened organic stone-milled Red Fife and Khorasan dough laminated with grass-fed cultured butter, freshly mortared Guatemalan green cardamom pods, and dark muscovado sugar crust.',
-    image: '/src/assets/images/product_cardamom_kouign_1791180956490.jpg',
+    image: cardamomKouignImg,
     dietaryTags: ['organic'],
     availabilityNote: 'Baked Fresh Daily',
     extractionSpec: {
@@ -148,7 +154,7 @@ export const CAFE_PRODUCTS: CafeProduct[] = [
     unitLabel: '350ml Glass',
     description:
       'Shade-grown for 28 days in Uji, Kyoto and granite stone-milled to 5 microns. Hand-whisked to order with 78°C spring water using an 80-prong bamboo chasen and layered over cold-pressed barista oat or local Jersey milk.',
-    image: '/src/assets/images/product_matcha_latte_1791180966406.jpg',
+    image: matchaLatteImg,
     dietaryTags: ['plant-based', 'gluten-free', 'organic'],
     availabilityNote: 'Spring First Flush',
     extractionSpec: {
@@ -190,7 +196,7 @@ export const CAFE_PRODUCTS: CafeProduct[] = [
     unitLabel: '250g Sealed Box',
     description:
       'Grown by Mateo Gaviria on steep volcanic slopes in Antioquia, Colombia. Roasted lightly on our Loring S15 Falcon with a 14.2% development time ratio to preserve vibrant malic acidity and florals for both filter and modern espresso.',
-    image: '/src/assets/images/product_ethiopia_beans_1791180976390.jpg',
+    image: ethiopiaBeansImg,
     dietaryTags: ['plant-based', 'gluten-free', 'organic'],
     availabilityNote: '42 Bags Remaining',
     extractionSpec: {
@@ -233,7 +239,7 @@ export const CAFE_PRODUCTS: CafeProduct[] = [
     unitLabel: 'Side-by-Side Flight',
     description:
       'Experience the same micro-lot Chiroso cultivar pulled twice: first as a naked 1:2.2 espresso shot showing bright blackcurrant clarity, paired alongside a 110ml Gibraltar cortado textured with velvety microfoam.',
-    image: '/src/assets/images/hero_cafe_architecture_1791180933092.jpg',
+    image: heroCafeArchitectureImg,
     dietaryTags: ['gluten-free', 'organic'],
     availabilityNote: 'Dialed In at 06:15',
     extractionSpec: {
@@ -274,7 +280,7 @@ export const CAFE_PRODUCTS: CafeProduct[] = [
     unitLabel: 'Single Tartine (130g)',
     description:
       'Brioche-style buckwheat and almond flour crumb soaked in orange blossom syrup, layered with house-ground organic black sesame frangipane, and crowned with fanned Hood River pears and toasted sesame seeds.',
-    image: '/src/assets/images/product_cardamom_kouign_1791180956490.jpg',
+    image: cardamomKouignImg,
     dietaryTags: ['plant-based', 'gluten-free', 'organic'],
     availabilityNote: 'Limited Morning Batch',
     extractionSpec: {
