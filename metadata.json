@@ -1,0 +1,6 @@
+{
+  "name": "Sorel Roastery & Viennoiserie",
+  "description": "Specialty coffee roastery, precision pour-over bar, and naturally leavened sourdough bakery featuring direct-trade single-origin micro-lots, cafe ordering, brew calculator, and table reservations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
